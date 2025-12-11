@@ -10795,11 +10795,11 @@ header.masthead .post-heading .meta a {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
-}
 @media (max-width: 768px) {
     .hero {
-        background-size: contain;  
-        background-repeat: no-repeat;
-        padding: 60px 20px;
+        background-size: cover;
+        background-position: center top;
+        padding: 40px 20px;
     }
 }
+
