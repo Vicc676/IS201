@@ -10791,10 +10791,10 @@ header.masthead .post-heading .meta a {
 .post-preview > .post-meta > a {
   text-decoration: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     header.masthead {
         background-size: cover;
-        background-position: center top;
+        background-position: center center;
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
