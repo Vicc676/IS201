@@ -10791,15 +10791,12 @@ header.masthead .post-heading .meta a {
 .post-preview > .post-meta > a {
   text-decoration: none;
 }
-@media (min-width: 992px) {
-  .post-preview > a > .post-title {
-    font-size: 2.25rem;
-  }
 @media (max-width: 768px) {
-    .hero {
+    header.masthead {
         background-size: cover;
         background-position: center top;
-        padding: 40px 20px;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 }
 
