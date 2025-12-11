@@ -10795,25 +10795,22 @@ header.masthead {
     background-size: cover;
     background-position: center;
 }
-/* Hide mobile hero image on desktop */
-.hero-img-mobile {
-    display: none;
+header.masthead {
+    display: flex;
+    align-items: center;     /* vertical centering */
+    justify-content: center; /* horizontal centering */
+    background-size: cover;
+    background-position: center;
 }
-
-/* Phones & small screens */
 @media (max-width: 768px) {
     header.masthead {
-        background-image: none !important;
-        background-color: #000;   /* you can change this if you want */
-        text-align: center;
-        padding-top: 3rem;
-        padding-bottom: 2rem;
+        background-size: cover;              /* keep hero look */
+        background-position: center 30%;     /* 👈 key line */
     }
-
-    .hero-img-mobile {
-        display: block;
-        width: 100%;
-        height: auto;
-        margin-top: 1rem;
+}
+@media (max-width: 768px) {
+    header.masthead {
+        background-position: center 30%;
+        background-size: cover;
     }
 }
